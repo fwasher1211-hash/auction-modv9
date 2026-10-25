@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmod",
+  "version": "${version}",
+  "name": "Auction Mod (DonutSMP)",
+  "description": "Client-side auctions for DonutSMP. Right Shift opens the menu. Whoever /pays you the most leads.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.auction.client.AuctionModClient"]
+  },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
