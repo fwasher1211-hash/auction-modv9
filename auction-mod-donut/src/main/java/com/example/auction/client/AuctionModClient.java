@@ -26,6 +26,7 @@ public class AuctionModClient implements ClientModInitializer {
     private static final Pattern AMOUNT = Pattern.compile(
         "^[^\\d\\p{L}]*?([\\d,]*\\.?\\d+)\\s*([kKmMbBtT]?)\\W*$");
 
+    private static KeyBinding openKey;
     static boolean debug;
 
     @Override
